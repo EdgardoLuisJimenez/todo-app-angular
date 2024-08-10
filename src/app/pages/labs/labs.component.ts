@@ -6,13 +6,19 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './labs.component.html',
-  styleUrl: './labs.component.css'
+  styleUrl: './labs.component.css',
 })
 export class LabsComponent {
   welcome = 'Hola!';
-  tasks = [
-    'Instalar el Angular CLI',
-    'Crear proyecto',
-    'Crear componente'
-  ]
+  tasks = ['Instalar el Angular CLI', 'Crear proyecto', 'Crear componente'];
+  name = 'Edgardo';
+  age = 21;
+  disable = true;
+  img = 'https://w3schools.com/howto/img_avatar.png';
+
+  person = {
+    name: 'Edgardo',
+    age: '21',
+    avatar: 'https://w3schools.com/howto/img_avatar.png',
+  };
 }

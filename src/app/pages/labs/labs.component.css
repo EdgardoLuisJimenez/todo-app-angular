@@ -1,3 +1,8 @@
 .container {
   padding: 3rem;
 }
+.box {
+  height: 10;
+  display: block;
+  background-color: red;
+}
